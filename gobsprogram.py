@@ -12,7 +12,7 @@ while (True):
             for linenum in range(0, int(num)):
                 #Creates a random delay, rounded to 3 decimal places, to emulate the feel of an old computer
                 sleeptime = round(uniform(0.001, 0.125), 3)
-                print('PENUS    PENUS    PENUS    PENUS    PENUS    PENUS    PENUS    PENUS    PENUS    PENUS    PENUS    PENUS    PENUS ')
+                print('PENUS    PENUS    PENUS    PENUS    PENUS')
                 if ans == "D" or ans == "d":
                     #Adds the length of the delay and the current line number
                     print(f"Delay: {sleeptime}, Line: {linenum + 1}")
